@@ -149,23 +149,24 @@ h1{
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    padding-top: 10px;
 }
 
 .nosotrosContenido div{
-    padding-top: 2rem;
     flex: 1;
 }
 
 .nosotros p{
-        font-size: 1.2em;
-        margin: 10px;
-        text-align: left;
+    font-size: 1.2em;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 .nosotros img{
-        width: 40rem;
-        border-radius: 8px;
-        object-fit: cover;
+    width: 40rem;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
 
