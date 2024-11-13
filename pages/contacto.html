@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <script src="https://kit.fontawesome.com/04e88cf21b.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/estilos.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="../index.html">
+                <img class="logo" src="../assets/img/bako_logo.png" alt="Logo de BaKo - Frutos Secos" width="200">
+            </a>
+
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./productos.html">Productos</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./carrito.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="contactoTitulo">
+                <h1>
+                    Dejanos tu comentario o consulta
+                </h1>
+                <p>
+                    Ante cualquier consulta no dudes en comunicarte. Dejá tus datos y consulta utilizando el formulario a continuación y nos contactaremos a la brevedad
+                </p>
+            </section>
+
+            <div>
+                <form action="validar.html" method="post" class="contacto">
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id ="nombre" name="nombre" type="text" placeholder="Nombre y Apellido" minlength="3" maxlength="50" required autofocus autocomplete="off">
+                    </div>
+                    <div>
+                        <label for="mail">E-Mail</label>
+                        <input type="email" id="mail" name="mail" placeholder="ejemplo@mail.com" required>
+                    </div>
+                    <div>
+                        <label for="asunto">Asunto</label>
+                        <input type="asunto" id="asunto" name="asunto">
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="botonera">
+                        <fieldset>
+                            <a href="./contacto.html"><input type="button" value="Enviar" class="boton"></a>
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+
+
+        </main>
+
+        <footer>
+            <section class="footer">
+                <a href="../index.html">
+                    <img class="logo" src="../assets/img/bako_logo.png" alt="Logo de BaKo - Frutos Secos" width="200">
+                </a>
+
+                <nav class="menuFooter">
+                    <h3>CONTENIDOS</h3>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./productos.html">Productos</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                        <li><a href="./carrito.html">Carrito</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="menuFooter">
+                    <h3>NOSOTROS</h3>
+                    <ul>
+                        <li><a href="">Sobre Nosotros</a></li>
+                        <li><a href="">Política de Privacidad</a></li>
+                        <li><a href="">Términos y Condiciones</a></li>
+                        <li><a href="">Preguntas Frecuentes</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="footerContacto">
+                    <h3>CONTACTATE CON NOSOTROS</h3>
+                    <ul class="iconos">
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <a href="" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </section>
+
+            <p class="footerDerechos">© 2024 BaKo | Todos los derechos reservados.</p>
+
+        </footer>
+
+    </body>
+</html>

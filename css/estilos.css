@@ -1,0 +1,369 @@
+/*esto es un comentario en css*/
+*{
+    font-family: "Montserrat", sans-serif;
+    margin:0;
+    padding:0;
+}
+
+
+h1{
+    font-size: 2rem;
+}
+
+.colorPrincipal{
+    background-color: white;
+    color: black;
+    a{
+        color: black;
+    }
+}
+
+.header{
+    display: flex;
+    background-color: white;
+    font-size: 10px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    .logo{
+        width: 130px;
+    }
+    nav{
+        ul{
+            list-style: none;
+            margin: 30px;
+            padding-top: 4rem;
+            li{
+                display: inline-block;
+                margin-right: 15px;
+                a{
+                    text-decoration: none;
+                    color:  #510d1b;
+                    font-size: 2.5em;
+
+                }
+            }
+        }
+    }
+}
+
+.indexPrincipal{
+    background-image: url("../assets/img/index_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 80vh;
+    .tituloIndexPrincipal{
+        font-size: 2.5rem;
+        padding-top:3rem;
+        margin-left: 2rem;
+        text-align: left;
+        color: #510d1b;
+    }
+    .contenedorTextoPrincipalIndex{
+        margin:0;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+        text-align: left;
+        width: 55%;
+        font-size: 0.7rem;
+        color: #510d1b;
+        backdrop-filter: blur(15px);
+        p{
+            font-size: 2.5em;
+        }
+    }
+}
+
+.productosDestacados{
+    h1{
+        color: #510d1b;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 40px;
+        padding-top: 20px;
+    }
+    .contenedorProductosDestacados{
+        img{
+            width: 15rem;
+        }
+        ul{
+            text-align: center;
+            padding-top: 20px;
+            list-style: none;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            li{
+                display: inline-block;
+                text-align: center;
+                background-color: #ffff;
+                border-radius: 20px;
+                box-shadow: 0 4px 8px rgba(9, 9, 9, 0.1);
+                transition: transform 0.3s, box-shadow 0.3s;
+                padding: 20px;
+                width: 18rem;
+                margin: 20px;
+            }
+            li:hover {
+                transform: translateY(-10px); /* Efecto de "subir" al hacer hover */
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al hacer hover */
+            }
+            h3, h4 {
+                margin: 10px 0;
+            }
+
+            a {
+                display: inline-block;
+                margin-top: 10px;
+                padding: 10px 15px;
+                background-color: #28a745;
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+                transition: background-color 0.3s ease;
+            }
+
+            a:hover {
+                background-color: #218838;
+            }
+        }
+        }
+}
+
+.nosotros{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(214, 209, 209);
+}
+
+.nosotros h1{
+    color: #510d1b;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.nosotrosContenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.nosotrosContenido div{
+    padding-top: 2rem;
+    flex: 1;
+}
+
+.nosotros p{
+        font-size: 1.2em;
+        margin: 10px;
+        text-align: left;
+}
+
+.nosotros img{
+        width: 40rem;
+        border-radius: 8px;
+        object-fit: cover;
+}
+
+
+.footer{
+    background-color: white;
+    color: black;
+    font-size: 0.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: left;
+    gap: 100px;
+    padding: 20px;
+    ul{
+        list-style: none;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    h4{
+        font-size: 0.7rem;
+    }
+}
+
+.logo{
+    width: 100px;
+}
+
+
+.menuFooter
+    ul{
+        padding-top: 10px;
+        li{
+            display: block;
+            margin-right: 15px;
+            a{
+                text-decoration: none;
+                color:  black;
+                font-size: 1.5em;
+            }
+        }
+        .fa-facebook, .fa-instagram, .fa-x-twitter{
+            font-size: 1.5em;
+        }
+    }
+
+.footerContacto{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    .iconos{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.fa-facebook, .fa-instagram, .fa-x-twitter{
+    font-size: 1.5rem;
+    color: black;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.fa-whatsapp{
+font-size: 5em;
+color:rgb(44, 181, 44);
+position:fixed;
+bottom: 20px;
+right: 20px;
+
+}
+
+.footerDerechos{
+    font-size: 0.9rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* FINAL INDEX*/
+
+
+/* INIT PRODUCTOS*/
+
+
+.productosTitulo{
+    h1{
+        background-color: rgb(214, 209, 209);
+        color: #510d1b;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 40px;
+        padding-top: 20px;
+    }
+}
+
+.productos{
+    background-color: rgb(214, 209, 209);
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    img{
+        width: 15rem;
+    }
+    div{
+        text-align: center;
+        background-color: #ffff;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(9, 9, 9, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+        padding: 20px;
+        width: 18rem;
+        margin: 20px;
+    }
+    div:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    h3, h4 {
+        margin: 10px 0;
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: #28a745;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    a:hover {
+        background-color: #218838;
+    }
+}
+
+/* FINAL PRODUCTOS */
+
+/* INIT CONTACTO */
+
+.contactoTitulo{
+    color: #510d1b;
+    text-align: left;
+    padding: 20px;
+    margin-left: 20px;
+    p{
+        padding-top: 1rem;
+        width: 45%;
+        font-size: 0.9rem;
+    }
+}
+
+.contacto{
+    width: 700px;
+    padding: 20px;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+form label{
+    width: 80px;
+    display: block;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+form legend{
+    padding-top: 20px;
+    width: 300px;
+    display: inline-block;
+}
+
+form input, select{
+    width: 650px;
+    padding: 5px;
+    height: 30px;
+    border: 1.5px solid rgb(151, 150, 150);
+}
+
+textarea{
+    width: 650px;
+    padding: 5px;
+    box-sizing: 10px;
+}
+
+
+.botonera{
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;;
+}
+
+.boton{
+    width: 100px;
+    background-color: #510d1b;
+    color: white;
+    border: 1px solid white;
+    font-size: 1rem;
+}
